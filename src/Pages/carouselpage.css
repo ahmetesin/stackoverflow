@@ -1,0 +1,14 @@
+.carousel-container{
+    
+    margin-top: 10%;
+}
+
+.carousel-item{
+   
+    height: 20vh;
+}
+
+.carousel-item img{
+    width: 100px;
+    margin: 2rem;
+}

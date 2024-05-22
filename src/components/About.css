@@ -1,0 +1,892 @@
+#navbar{
+   width: 100%;
+   height: 85px;
+   z-index: 1;
+   background-color: rgb(255, 255, 255) !important;
+   position: fixed;
+   top: 0;
+  
+
+}
+
+
+#navbar ul{
+    width: 90%;
+    margin-top: 1rem;
+    display: flex;
+   
+}
+
+@media (max-width: 1050px){
+    #navbar ul .lists{
+        display: none;
+    }
+}
+
+#ul-control li{
+    align-self: center;
+    margin: 1rem;
+    font-size: 18px !important;
+    
+}
+ .logo:hover{
+    background-color: white !important;
+ }
+ #ul-control li:hover{
+    background-color: rgb(241, 241, 241);
+    border-radius: 8px;
+}
+
+
+
+
+#ul-control button{
+    margin-top: 1rem;
+    
+}
+
+
+
+li .small{
+    font-size: 23px;   
+}
+
+.flex-auto{
+   margin-left: auto !important;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+.icondown{
+    width: 13px;
+    height: 13px;
+    
+}
+
+.follow-us{
+    display: none;
+    
+}
+
+
+
+.new-content-about{
+    position: absolute;
+    width: 420px;
+    height: 83vh;
+    border: 0.3px solid rgb(218, 215, 215);
+    margin-left: -13rem;
+    margin-top: 0.3rem;
+    border-radius: 8px;
+    z-index: 99;
+    background-color: white;
+    overflow: scroll;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.new-content-about div{
+    margin: 1rem;
+    width:90% ;
+    align-items: center;
+    margin-left: 1rem;
+    border-radius: 8px;
+   
+}
+
+.new-div1{
+    display: flex;
+    height: 110px;
+    border: 0.3px solid rgb(218, 215, 215);
+   
+}
+
+.div-icon{
+    width: 20% !important;
+    height: 100%;
+    
+}
+
+.icon-2{
+    width: 80%;
+    height: 100%;
+}
+
+.icon-2 small{
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.iconarrow-right{
+    font-weight: bold;
+}
+
+.new-div2{
+    height: 110px;
+    border: 0.3px solid rgb(218, 215, 215);
+    display: flex;
+}
+
+.new-div3{
+    height: 90px;
+    border: 0.3px solid rgb(218, 215, 215);
+    display: flex;
+}
+
+.new-div4{
+    height: 90px;
+    background-color: #fef6f1;
+    border: none;
+  
+}
+
+.new-div4 small{
+    font-size: 14px;
+    margin-left: 1rem;
+}
+
+.new-div5{
+    height: 80px;
+    background-color: #edf5fd;
+}
+
+.new-div5 div{
+    height: 60px;
+    padding-top: 6px;
+}
+
+.new-div5 div small{
+    margin-left: 1rem;
+    font-size: 14px;
+}
+
+.new-div6{
+    width: 100%;
+    border: none;
+    height: 90px;
+    display: flex;
+    
+}
+.new-div6 div{
+    width: 40%;
+    height: 100%;
+    line-height: normal;
+   
+}
+
+.new-div6 div small{
+    font-size: 12px;
+}
+
+
+
+.container{
+    width: 100% !important;
+    height: auto;
+    
+}
+
+.div-1{
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    margin-top:2px;
+    margin-left: -7.3rem;
+}
+
+
+.small-div{
+    margin-left: 2px;
+    width: 30px;
+    height: 35px;
+    margin-top: 1rem;
+    border-radius:2px 5px;
+    background-color: #f48024;
+}
+.div-small{
+    margin-left: 2rem;
+    width: 30px;
+    height: 35px;
+    background-color: #fbcca5;
+    border-radius:2px 5px 
+}
+
+
+.div-2{
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 86%;
+}
+
+.small-div1{
+    margin-left: 2px;
+    width: 35px;
+    height: 38px;
+    margin-top: 1rem;
+    border-radius:2px 5px 2px 5px;
+    background-color: #f48024;
+}
+.div-small1{
+    margin-left: 2rem;
+    width: 35px;
+    height: 38px;
+    background-color: #fbcca5;
+    border-radius:2px 5px 2px 5px
+}
+
+.text-container{
+    width: 90%;
+    margin-left: 5rem;
+   
+}
+
+@media (max-width: 630px){
+    .text-container{
+        width: 100%;
+        margin-left: -1rem;
+       
+    }
+
+    .div2{
+        display: none;
+    }
+}
+
+.text-container img{
+    width: 70px;
+    margin-top: 13%;
+    border-radius: 50%;
+}
+
+.text-container h1{
+    margin-top: 1rem;
+   
+}
+
+.s-1{
+    margin-top: 2rem !important;
+    width: 60%;
+    margin: auto;
+}
+
+.s-1 small{
+    font-size: 20px;
+}
+
+.flex-container{
+    width: 100%;
+    height: 120px;
+    margin-left: 3rem;
+    margin-top: 15%;
+    display: flex;
+    border-radius: 5px;
+    
+    justify-content: center;
+    
+}
+
+@media (max-width: 800px){
+    .flex-container{
+    width: 100%;
+    height: 90vh;
+    margin-top: 15%;
+    display: block;
+    border-radius: 10px;
+    justify-content: center;
+        
+    }
+
+    .flex-container div{
+        width: 100% !important;
+        background-color: #b85708;
+        height: 110px !important;
+    }
+
+    .flex-container .border-r{
+        border-right: 0.6px white !important;
+    }
+}
+
+.flex-container div{
+    width: 25%;
+    height: auto;
+    background-color: #f9f9f4;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container .border-r{
+    border-right: 0.6px solid rgb(214, 211, 211);
+}
+
+.flex-container div h3{
+    margin-top: 1rem;
+    
+}
+.flex-container div small{
+    font-size: 16px;
+
+    
+}
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logot {
+    width: 100%;
+    overflow: hidden;
+    padding: 70px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+    z-index: -1;
+  }
+
+  .logot p{
+    color: gray;
+  }
+  
+  .logot:before,
+  .logot:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logot:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logot:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  
+  
+  .logot-slide {
+    display: inline-block;
+    animation: 40s slide infinite linear;
+  }
+  
+  .logot-slide img {
+    width: 90px;
+    height: 50px;
+    margin: 0 40px;
+  }
+
+.stackoverflow-AI{
+    width: 97%;
+    height: 350px;
+    background-color: #3b4045;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+@media (max-width:992px){
+    .stackoverflow-AI{
+        height: 400px;
+    }
+}
+
+@media (max-width:774px){
+    .stackoverflow-AI{
+        height: 500px;
+    }
+}
+
+@media (max-width:455px){
+    .stackoverflow-AI{
+        height: 95vh;
+    }
+}
+
+
+.stackoverflow-AI b{
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+}
+
+.stackoverflow-AI .a-i{
+   background: #f48024;
+   font-size: 25px;
+   font-weight: 25px;
+   -webkit-transform: skew(-13deg); 
+   -moz-transform: skew(-13deg); 
+   -o-transform: skew(-13deg);
+   transform: skew(-13deg);
+   display: inline;
+   color: black;
+   border-radius: 3px;
+   
+}
+
+.div-2-2 p{
+    font-weight: bolder;
+    font-size: 28px;
+    position: absolute;
+    margin-top: -4px;
+    
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    
+}
+
+.over-text{
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 2rem;
+    
+  
+}
+
+.over-text p{
+    color: white;
+    font-size: 20px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.over-text button{
+    margin-top: 5px;
+    background-color: #555bce;
+    border: #555bce;
+}
+
+.over-text a{
+    margin-left: 2rem;
+    color: white;
+    text-decoration: underline;
+
+}
+
+.stackoverflow-content-2{
+    width: 97%;
+    height: 350px;
+    background-color: #fef6f1;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+    display: flex;
+}
+
+@media (max-width:993px){
+    .stackoverflow-content-2{
+        height: 800px;
+        width: 100%;
+        display: block;
+    }
+
+    .stack-episode-2{
+        width: 100% !important;
+        
+    }
+
+    
+}
+
+.stack-episode-1{
+  
+    width: 50%;
+    text-align: start;
+}
+
+.stack-episode-2{
+  
+    width: 50%;
+    text-align: start;
+}
+
+
+.stack-logo1{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.stack-episode-1 h3{
+    display: inline;
+    position: absolute;
+    margin-top: 3.7rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.stack-episode-1 p{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-size: 21px;
+    font-family: "Gill Sans", sans-serif;
+    color: #3b4045;
+}
+
+.stack-episode-1 button{
+    background-color: #f48024;
+    border: #f48024;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.stack-episode-1 button:hover{
+    background-color: #b85708;
+    border: #f48024;
+}
+
+
+.stack-episode-2 img{
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 3rem;
+}
+
+.stackoverflow-content-3{
+    margin-top: 3rem;
+    width: 97%;
+    height: 100px;
+    text-align: start;
+    border: 0.5px solid rgb(221, 218, 218);
+    border-radius: 10px;
+    display: flex;
+
+}
+
+@media (max-width:994px){
+    .stackoverflow-content-3{
+        width: 100%;
+        height: 50vh;
+        display: block;
+    }
+
+    .introducing-1 {
+        margin-top: 1rem;
+        width: 100% !important;
+        height: 25vh;
+    }
+
+    .introducing-2 {
+     
+        width: 100% !important;
+        height: 25vh;
+        text-align: center;
+    }
+
+    .introducing-2 button{
+        width: 90%;
+        margin-left: -1rem !important;
+    }
+
+
+}
+
+.introducing-1 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 60%;
+}
+
+.introducing-2 button{
+    margin-top: 2rem;
+    margin-left: 15rem;
+}
+
+.stackoverflow-forteams{
+    width: 97%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #d7dbf0;
+    margin-top: 2rem;
+    box-shadow: 10px 10px 5px rgb(136, 202, 224);
+    display: flex;
+}
+
+@media (max-width: 991px){
+    .stackoverflow-forteams{
+        width: 100%;
+        display: block;
+        height: 800px;
+    }
+
+    .forteams-content-1{
+        width: 100% !important;
+    }
+
+    .forteams-content-2{
+        width: 100% !important;
+    }
+
+    .forteams-content-2 img{
+        width: 75% !important;
+        margin-left: -3rem !important;
+        margin-top: 4rem !important;
+    }
+
+    #for-teams-e{
+        margin-top: 5rem !important;
+       
+    }
+}
+
+@media (max-width: 1115px){
+    #for-teams-e{
+        margin-top: 5rem !important;
+    }
+}
+
+.forteams-content-1{
+    width: 50%;
+    text-align: start;
+   
+}
+
+.f-logo{
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+
+
+.forteams-content-1 h4{
+    display: inline-block;
+    margin-top: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#for-teams-e{
+    position: absolute;
+    color: #f48024;
+    margin-top: 6.3%;
+    margin-left: -10rem;
+}
+
+.forteams-content-1 p{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forteams-content-1 button{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    background-color: #555bce;
+    border: none;
+}
+
+.forteams-content-1 a {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
+.forteams-content-1 img{
+    width: 50px;
+    margin-left: 2rem;
+}
+
+.forteams-content-2 {
+    width: 50%;
+}
+
+.forteams-content-2 img{
+    width: 400px;
+    margin-top: 5px;
+    margin-left: 8rem;
+    border-radius: 10px;
+}
+
+.stackoverflow-advertising{
+    width: 97%;
+    height: 55vh;
+    display: flex;
+    background-color: #edf5fd;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+@media (max-width: 991px){
+    .stackoverflow-advertising{
+        width: 100%;
+        height: 110vh;
+        display: block;
+    }
+
+    .advertising-content-1{
+        height: 55vh;
+        width: 100%;
+    }
+
+    .advertising-content-2{
+        height: 55vh;
+        width: 100%;
+       
+    }
+
+    .advertising-content-2 img{
+        width: 1;
+    }
+
+    
+}
+
+.advertising-content-1{
+    width: 50%;
+    text-align: start;
+}
+
+.advertising-content-1 h4{
+    display: inline-block;
+    margin-top: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+
+}
+
+.advertising-logo{
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+
+.advertising-text{
+    position: absolute;
+    color: #f48024;
+    margin-top: 5.1rem;
+    margin-left: -10rem;
+}
+
+.advertising-content-1 p{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.advertising-content-1 button{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    background-color: #ffb500;
+    border: none;
+    color: black;
+    font-weight: 500;
+}
+
+.advertising-content-1 small{
+    margin-left: 3rem;
+    margin-top: 1rem;  
+}
+
+.advertising-content-1 a{
+    text-decoration: underline;
+}
+
+
+.js-a{
+    margin-left: 1rem;
+}
+
+.advertising-content-1{
+    width: 50%;
+}
+
+
+.advertising-content-2 img{
+    width: 550px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    
+}
+
+.stackoverflow-introduction{
+    width: 97%;
+    height: 60vh;
+    background-color: #e7e7e4;
+    margin-top: 5rem;
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+@media (max-width: 1215px){
+    .stackoverflow-introduction{
+        width: 100%;
+    }
+
+    .stackoverflow-introduction div{
+        width: 200px;
+    }
+}
+
+@media (max-width: 994px){
+    .stackoverflow-introduction{
+        width: 100%;
+        height: 170vh;
+        display: block;
+        text-align: center;
+        
+    }
+
+    .stackoverflow-introduction div{
+        width: 100%;
+        height: 40vh;
+      
+        
+    }
+
+    .stackoverflow-introduction div p{
+        margin-left: 3rem;
+    }
+}
+
+
+
+.introduction-div{
+     width: 250px;
+     height: 100%;
+    
+}
+
+.introduction-div .int-lg{
+    margin-top: 5rem;
+    color: #3b4045;
+}
+
+.introduction-div p{
+    text-align: start;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 2rem;
+    color: #3b4045;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.introduction-div a{
+    text-decoration: underline;
+}
+
+.stack-footer{
+    width: 100%;
+}
+
+
+
+
+
+
+
+

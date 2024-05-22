@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex !important;
+    width: 100%;
+    align-items: center;
+    height: 110vh;
+    justify-content: space-around;
+   
+    
+}
+
+.main-container a{
+    text-decoration: none;
+}
+
+.first-container{
+    width: 50%;
+ 
+    
+}
+
+.left-container-control{
+   
+   width: 80%;
+   height: 100%;
+   margin-left: auto;
+   margin-top: 1rem;
+
+}
+
+.ul-control{
+    width: 100%;
+   
+}
+
+.ul-control li{
+    font-size: 18px;
+    margin-left: -10px;
+}
+
+#small{
+    font-size: 30px;
+}
+
+.left-container-control b{
+    font-size: 35px;
+}
+
+
+
+
+
+.second-container{
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    
+
+    
+}
+
+.right-container-control{
+    width: 65%;
+    height: 80vh;
+    background-color: rgb(238, 237, 237);
+    margin-top: 4rem;
+    border-radius: 8px;
+    padding-top: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.right-container-control-inside{
+    height: 90%;
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 2.7rem;
+    padding: 1rem;
+    background-color: ;
+   
+}
+
+form button{
+    width: 100%;
+}
+
+
+@media (max-width: 950px){
+    .first-container{
+        width: 40%;
+        margin-right: auto;
+    }
+
+    .left-container-control{
+        width: 100%;
+        height: 100%;
+        margin-right: auto;
+        margin-top: 1rem;
+     
+     }
+
+     .ul-control{
+        width: 100%;
+       
+    }
+
+    .ul-control li{
+        font-size: 15px;
+        margin-right: auto;
+    }
+
+     .second-container{
+        margin-left: auto;
+     }
+
+     .right-container-control{
+        width: 100%;
+     }
+}
+
+
+@media (max-width: 620px){
+
+    .main-container{
+        display: block;
+        width: 100%;
+        align-items: center;
+        
+       
+        
+    }
+
+    .first-container{
+        width: 100%;
+        align-items: center;
+        margin-left: 2rem;
+        margin-top: 4rem;
+
+    }
+
+    .left-container-control{
+        width: 100%;
+        height: 100%;
+        margin-top: 1rem;
+        
+     
+     }
+
+
+    .second-container{
+        width: 100%;
+        height: 50vh;
+        justify-content: center;
+        
+    
+        
+    }
+    
+    .right-container-control{
+        width: 80%;
+        margin-left: 2rem;
+        height: 100vh;
+        background-color: rgb(238, 237, 237);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+
+
+
+    
+
+    }
+
+
+
